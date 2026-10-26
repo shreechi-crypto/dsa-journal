@@ -1,5 +1,42 @@
 # Two Pointers: Theory Chapter
 
+The two-pointer approach optimizes brute-force O(n^2) nested loops into an O(n) linear scan
+
+Core Patterns
+         **Opposite ends (Converging): Left pointer starts at 0, right at n - 1. They move inward until they meet based on a condition.
+
+Typical use: Two Sum in a sorted array, reversing elements, container with most water, checking palindromes.
+
+         **Same direction (Fast & Slow): Both start at 0, but move at different speeds or intervals.
+
+Typical use: Removing duplicates in-place, linked list cycle detection (Floyd’s algorithm), sliding window boundaries.
+
+
+
+
+## 2 Pointers konse datastructures mei lgti h --- arrays and linkedlist
+
+WHERE TO THINK ABOUT 2POINTERS APPROACH ?
+
+--- sorted / data sort krne se Example: Find two numbers in a sorted array that add up to a target.
+
+
+--- pairs / triplets / quadruples / subarrays /ranges instead of working with single elements. Example: Longest substring without repeating characters, maximum consecutive ones, checking if a string is palindrome
+
+
+question -- find 2 numbers in a array that add up to a target 
+now ya toh index return h of those 2 numbers ya phir sirf vo numbers return krne h
+if numbers return krne h so sort the array and 2 pointer laagao SC- O(1) TC - NlogN
+since sorting mei N LOGN AND ONE TIME TRAVERSING O(N) 
+but if index return krna h and array is not sorted , phir array sort krne se numbers unke index change honge and original ans se hamara ans match nhi krega so not use 2pointer in such case
+
+but if index return krne h and sorted array h then use 2 pointer 
+
+
+
+
+
+
 ---
 
 ## 1. Prerequisites
